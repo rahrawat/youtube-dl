@@ -135,6 +135,7 @@
  - **CarambaTVPage**
  - **CartoonNetwork**
  - **cbc.ca**
+ - **cbc.ca:olympics**
  - **cbc.ca:player**
  - **cbc.ca:watch**
  - **cbc.ca:watch:video**
@@ -189,7 +190,7 @@
  - **CSpan**: C-SPAN
  - **CtsNews**: 華視新聞
  - **CTVNews**
- - **culturebox.francetvinfo.fr**
+ - **Culturebox**
  - **CultureUnplugged**
  - **curiositystream**
  - **curiositystream:collection**
@@ -291,11 +292,14 @@
  - **FranceTV**
  - **FranceTVEmbed**
  - **francetvinfo.fr**
+ - **FranceTVJeunesse**
+ - **FranceTVSite**
  - **Freesound**
  - **freespeech.org**
  - **FreshLive**
  - **Funimation**
- - **Funk**
+ - **FunkChannel**
+ - **FunkMix**
  - **FunnyOrDie**
  - **Fusion**
  - **Fux**
@@ -333,6 +337,7 @@
  - **HentaiStigma**
  - **hetklokhuis**
  - **hgtv.com:show**
+ - **HiDive**
  - **HistoricFilms**
  - **history:topic**: History.com Topic
  - **hitbox**
@@ -414,6 +419,7 @@
  - **Lecture2Go**
  - **LEGO**
  - **Lemonde**
+ - **Lenta**
  - **LePlaylist**
  - **LetvCloud**: 乐视云
  - **Libsyn**
@@ -422,6 +428,7 @@
  - **limelight**
  - **limelight:channel**
  - **limelight:channel_list**
+ - **LineTV**
  - **LiTV**
  - **LiveLeak**
  - **LiveLeakEmbed**
@@ -437,6 +444,8 @@
  - **m6**
  - **macgamestore**: MacGameStore trailers
  - **mailru**: Видео@Mail.Ru
+ - **mailru:music**: Музыка@Mail.Ru
+ - **mailru:music:search**: Музыка@Mail.Ru
  - **MakersChannel**
  - **MakerTV**
  - **mangomolo:live**
@@ -502,6 +511,7 @@
  - **MySpass**
  - **Myvi**
  - **MyVidster**
+ - **MyviEmbed**
  - **n-tv.de**
  - **natgeo**
  - **natgeo:episodeguide**
@@ -510,7 +520,8 @@
  - **NBA**
  - **NBC**
  - **NBCNews**
- - **NBCOlympics**
+ - **nbcolympics**
+ - **nbcolympics:stream**
  - **NBCSports**
  - **NBCSportsVPlayer**
  - **ndr**: NDR.de - Norddeutscher Rundfunk
@@ -667,6 +678,7 @@
  - **RaiPlay**
  - **RaiPlayLive**
  - **RaiPlayPlaylist**
+ - **RayWenderlich**
  - **RBMARadio**
  - **RDS**: RDS.ca
  - **RedBullTV**
@@ -792,6 +804,7 @@
  - **SunPorno**
  - **SVT**
  - **SVTPlay**: SVT Play and Öppet arkiv
+ - **SVTSeries**
  - **SWRMediathek**
  - **Syfy**
  - **SztvHu**
@@ -815,8 +828,11 @@
  - **Telegraaf**
  - **TeleMB**
  - **TeleQuebec**
+ - **TeleQuebecEmission**
+ - **TeleQuebecLive**
  - **TeleTask**
  - **Telewebion**
+ - **TennisTV**
  - **TF1**
  - **TFO**
  - **TheIntercept**
@@ -872,6 +888,7 @@
  - **TVNoe**
  - **TVNow**
  - **TVNowList**
+ - **TVNowShow**
  - **tvp**: Telewizja Polska
  - **tvp:embed**: Telewizja Polska
  - **tvp:series**
@@ -925,7 +942,6 @@
  - **vice**
  - **vice:article**
  - **vice:show**
- - **Viceland**
  - **Vidbit**
  - **Viddler**
  - **Videa**
@@ -941,6 +957,7 @@
  - **VideoPress**
  - **videoweed**: VideoWeed
  - **Vidio**
+ - **VidLii**
  - **vidme**
  - **vidme:user**
  - **vidme:user:likes**
@@ -1045,6 +1062,7 @@
  - **yandexmusic:album**: Яндекс.Музыка - Альбом
  - **yandexmusic:playlist**: Яндекс.Музыка - Плейлист
  - **yandexmusic:track**: Яндекс.Музыка - Трек
+ - **YapFiles**
  - **YesJapan**
  - **yinyuetai:video**: 音悦Tai
  - **Ynet**
