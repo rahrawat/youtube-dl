@@ -111,6 +111,7 @@ from .cloudflarestream import CloudflareStreamIE
 from .peertube import PeerTubeIE
 from .indavideo import IndavideoEmbedIE
 from .apa import APAIE
+from .foxnews import FoxNewsIE
 
 
 class GenericIE(InfoExtractor):
@@ -3076,7 +3077,7 @@ class GenericIE(InfoExtractor):
             return self.playlist_from_matches(
                 cloudflarestream_urls, video_id, video_title, ie=CloudflareStreamIE.ie_key())
 
-        peertube_urls = PeerTubeIE._extract_urls(webpage)
+        peertube_urls = PeerTubeIE._extract_urls(webpage, url)
         if peertube_urls:
             return self.playlist_from_matches(
                 peertube_urls, video_id, video_title, ie=PeerTubeIE.ie_key())
@@ -3090,6 +3091,11 @@ class GenericIE(InfoExtractor):
         if apa_urls:
             return self.playlist_from_matches(
                 apa_urls, video_id, video_title, ie=APAIE.ie_key())
+
+        foxnews_urls = FoxNewsIE._extract_urls(webpage)
+        if foxnews_urls:
+            return self.playlist_from_matches(
+                foxnews_urls, video_id, video_title, ie=FoxNewsIE.ie_key())
 
         sharevideos_urls = [mobj.group('url') for mobj in re.finditer(
             r'<iframe[^>]+?\bsrc\s*=\s*(["\'])(?P<url>(?:https?:)?//embed\.share-videos\.se/auto/embed/\d+\?.*?\buid=\d+.*?)\1',

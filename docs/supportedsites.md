@@ -266,6 +266,7 @@
  - **Europa**
  - **EveryonesMixtape**
  - **ExpoTV**
+ - **Expressen**
  - **ExtremeTube**
  - **EyedoTV**
  - **facebook**
@@ -289,7 +290,6 @@
  - **Foxgay**
  - **foxnews**: Fox News and Fox Business Video
  - **foxnews:article**
- - **foxnews:insider**
  - **FoxSports**
  - **france2.fr:generation-what**
  - **FranceCulture**
@@ -455,6 +455,8 @@
  - **mangomolo:live**
  - **mangomolo:video**
  - **ManyVids**
+ - **Markiza**
+ - **MarkizaPage**
  - **massengeschmack.tv**
  - **MatchTV**
  - **MDR**: MDR.DE and KiKA
@@ -893,6 +895,7 @@
  - **tvigle**: Интернет-телевидение Tvigle.ru
  - **tvland.com**
  - **TVN24**
+ - **TVNet**
  - **TVNoe**
  - **TVNow**
  - **TVNowList**
